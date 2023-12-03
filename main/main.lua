@@ -1,5 +1,6 @@
 local http = require("socket.http")
 local url = "https://api.chucknorris.io/jokes/random"
+-- local url = "https://httpbin.org/get"
 local output_string = "Loading..."
 
 function love.load()
